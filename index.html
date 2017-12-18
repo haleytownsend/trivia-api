@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Food Quiz</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div class="quizContainer">
+		<h1 class="title">Food Quiz</h1>
+		<input type="submit" name="startButton" class="start" value="Start quiz">
+		<form action="" class="form">
+			<div class="question"></div>
+			<ul class="choiceList"></ul>
+			<div class="questionFeedback"></div>
+			<div class="button">
+				<input type="submit" name="checkAnswer" class="submit" value="Submit" role="group">
+				<input type="submit" name="answerChoice" class="nextButton" value="Next Question" role="group">
+			</div>
+		</form>
+		<div class="results"></div>
+		  <span class="currentScore"></span>
+		  <span class="finalScore"></span>
+		<input type="submit" name="restart" class="restart" value="Do you want to take this quiz again?">
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
